@@ -1,15 +1,30 @@
 <?php
 
 namespace UPJV\Validator;
-
-class __EstValide implements ValidatorInterface
+/**
+ * Class EstValide implémente les méthode build & check
+ */
+class EstValide implements ValidatorInterface
 {
-    public function __build(array $param): object
+	  /**
+     * regarde si le mot est une chaine de caractère
+     *
+     * @param array $param
+     *
+     * @return object
+     */
+    public function build(array $param): object
     {
         return $this;
     }
-
-    public function __check($input): bool
+/**
+     * Test la longueur de la chaine de caractères
+     *
+     * @param $input
+     *
+     * @return true
+     */
+    public function check($input): bool
     {
         return true;
     }

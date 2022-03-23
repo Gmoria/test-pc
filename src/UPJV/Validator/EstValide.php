@@ -2,14 +2,14 @@
 
 namespace UPJV\Validator;
 
-class _EstValide implements ValidatorInterface
+class __EstValide implements ValidatorInterface
 {
-    public function _build(array $param): object
+    public function __build(array $param): object
     {
         return $this;
     }
 
-    public function _check($input): bool
+    public function __check($input): bool
     {
         return true;
     }

@@ -14,3 +14,4 @@ class EstValide implements ValidatorInterface
         return true;
     }
 }
+?>

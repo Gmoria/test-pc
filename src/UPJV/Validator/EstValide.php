@@ -1,13 +1,11 @@
 <?php
 
 namespace UPJV\Validator;
-
 /**
  * Class EstValide implémente les méthode build & check
  */
 class EstValide implements ValidatorInterface
 {
-
 /**
      * Regarde si le mot est une chaine de caractère
      *

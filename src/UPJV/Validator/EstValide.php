@@ -1,6 +1,7 @@
 <?php
 
 namespace UPJV\Validator;
+
 /**
  * Class EstValide implémente les méthode build & check
  */
